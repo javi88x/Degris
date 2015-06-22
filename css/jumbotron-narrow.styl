@@ -1,0 +1,336 @@
+/* Space out content a bit */
+@font-face {
+    font-family: Kabel;
+    src: url(../fonts/Kabel.ttf);
+}
+@font-face{
+  font-family: Questrial;
+  src: url(../fonts/Questrial.ttf);
+}
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Kabel;
+}
+p,
+ul,li{
+  font-family: Questrial !important;
+}
+.descripcion{
+  font-family: Questrial !important;
+  padding: 10px 10px;
+  text-align: center;
+  z-index: 1;
+  font-size: 15px;
+}
+.carousel-indicators{
+  display: none;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.preview-works,
+.Secciones,
+.footer,
+.tag {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.Logo-degris{
+  margin:0;
+  margin-top: -95px;
+  padding: 0;
+  position: relative;
+  top: 80px;
+  width: 100%;
+  max-width: 104px;
+  height: 140px;
+  background-repeat: no-repeat;
+}
+.Logo-degris img{
+  background-repeat: no-repeat;
+}
+.link-social{
+  background-color: transparent !important;
+  float: right;
+  padding: 2px 2px !important;
+  text-decoration: none;
+  z-index: 1;
+}
+.list-works{
+  border-top: 6px solid #999;
+}
+.btn-contacto a{
+    padding: 20px 2px !important;
+    background-color: transparent !important;
+    font-family: Kabel !important;
+}
+.pull-right{
+  margin-bottom: -10px;
+}
+.Secciones{
+  width: 100%;
+  border-top: 6px solid #999;
+}
+.tag{
+  background-color: #999;
+  text-align: right;
+}
+.form-control{
+  margin-bottom: 5px !important;
+}
+.tag a{
+  color: #111;
+}
+.degris-holding{
+  display: block;
+  margin:auto;
+}
+.plus{
+  text-align: right;
+  background-color: #999;
+  padding: 5px 10px;
+  border-radius: 0px;
+  max-width: 930px;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.plus a{
+  color: #111
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 5px;
+  border-bottom: 6px solid #999;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+.publicidad:hover{
+  display: block;
+  background-image: url(../img/secciones/publicidad-2.png);
+  width: 100%;
+  height: auto;
+}
+li.btn-contacto {
+  font-weight: bold;
+  float: none;
+  font-size: 21px;
+  text-align: center;
+}
+.btn-contacto a{
+  color: #222;
+}
+.btn-contacto a:hover{
+  color: #999;
+}
+#icon-social{
+  margin-top: 10px;
+}
+.branding:hover{
+  display: block;
+  background-image: url(../img/secciones/branding-2.png);
+  width: 100%;
+  height: auto;
+}
+.digital:hover{
+  display: block;
+  background-image: url(../img/secciones/digital-2.png);
+  width: 76px;
+  height: 143px;
+}
+.media:hover{
+  display: block;
+  background-image: url(../img/secciones/media-2.png);
+  width: 100%;
+  height: auto;
+}
+.mix:hover{
+  display: block;
+  background-image: url(../img/secciones/mix-2.png);
+  width: 100%;
+  height: auto; 
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 5px;
+  color: #777;
+  border-top: 6px solid #999;
+  text-align: center;
+}
+.footer p{
+  font-family: Kabel !important;
+}
+.bs-callout {
+  font-size: 14px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #111;
+}
+.bs-callout-primary h4 {
+    color: #444;
+    font-weight: bold;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #444;
+    font-weight: bold;
+}
+.bs-callout-warning {
+    border-left-color: #f6921e;
+}
+.bs-callout-warning h4 {
+    color: #444;
+    font-weight: bold;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+
+/*Custom maps*/
+    .google-maps {
+        position: relative;
+        padding-bottom: 42%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 97% !important;
+        /*max-width: 480px !important;*/
+        height: 100% !important;
+    }
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 767px){
+  .form-group{
+    margin-top: 15px !important;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+.secciones-degris{
+  text-align: center;
+}
+.secciones-degris li{
+  padding: 0 30px;
+}
+
+.view-works{
+  margin-bottom: 20px;
+}
+/* Supporting marketing content */
+.preview-works p + h4 {
+  margin-top: 28px;
+}
+
+@media (max-width: 1200px) {
+  .tag{
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1999px){
+  .google-maps {
+    margin-left: 15px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .preview-works,
+  .footer,
+  .Secciones,
+  .tag {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 20px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+/*Media Query iPhone */
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px){
+  .tag{
+    margin-top: 5px;
+  }
+  .google-maps{
+    margin-left: 10px;
+  }
+}
+
+/*Media other Phone */
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px){
+  .tag{
+    margin-top: 5px;
+  }
+  .google-maps{
+    margin-left: 10px;
+  }
+}
